@@ -1,0 +1,86 @@
+@import "//at.alicdn.com/t/font_3259624_3oh2irc7fye.css";
+
+/* 统一样式 */
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+.start50{
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    background: url("../imgs/score.png") no-repeat 0 0;
+}
+.start45{
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    background: url("../imgs/score.png") no-repeat 0 -11px;
+}
+.start40{
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    background: url("../imgs/score.png") no-repeat 0 -22px;
+}
+.start35{
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    background: url("../imgs/score.png") no-repeat 0 -33px;
+}
+.start30{
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    background: url("../imgs/score.png") no-repeat 0 -44px;
+}
+.start25{
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    background: url("../imgs/score.png") no-repeat 0 -55px;
+}
+.start20{
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    background: url("../imgs/score.png") no-repeat 0 -66px;
+}
+.start15{
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    background: url("../imgs/score.png") no-repeat 0 -77px;
+}
+.start10{
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    background: url("../imgs/score.png") no-repeat 0 -88px;
+}
+.start05{
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    background: url("../imgs/score.png") no-repeat 0 -99px;
+}
+.start00{
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    background: url("../imgs/score.png") no-repeat 0 -110px;
+}
+
+/* 统一样式结束 */

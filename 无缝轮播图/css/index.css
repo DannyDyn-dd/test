@@ -1,0 +1,67 @@
+@import url("reset.css");
+
+/* 统一样式开始 */
+.left{
+    float: left;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* 统一样式结束 */
+
+.main{
+    width: 600px;
+    height: 337px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 200px;
+    position: relative;
+}
+
+.main .container{
+    width: 2400px;
+}
+.main .container img{
+    width: 600px;
+    height: 337px;
+}
+
+.main .dots{
+    width: 120px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.main .dots li{
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    margin: 0 10px;
+    background-color: rgba(99, 99, 95, 0.3);
+    border-radius: 50%;
+}
+.main .dots .dot{
+    background-color: rgba(155, 50, 15, 0.8);
+}
+
+.main .lt-arrow,
+.main .rt-arrow{
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+.main .lt-arrow{
+    left: 0;
+}
+.main .rt-arrow{
+    right: 0;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="./css/iframe-reg.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./imgs/favicon.ico">
+    <script type="text/javascript" defer="defer" src="iframe-reg.js"></script>
+</head>
+<body>
+    <div class="reg m-mid1 none">
+        <img class="codepng1" src="./imgs/half-code1.png" alt="">
+        <div class="hover-img">短信登录/注册</div>
+        <span class="span1">二维码登录</span>
+        <div class="code-signin">
+            <img src="./imgs/doubanapp_qrcode.png" alt="">
+            <div class="verify">
+                请打开豆瓣&nbsp;App&nbsp;扫一扫&nbsp;或&nbsp;<a href="">短信登录验证</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="reg m-mid2">
+        <img class="codepng2" src="./imgs/halfcode.png" alt="">
+        <div class="hover-img">扫码登录</div>
+        <!-- 哪个selected就显示哪个 -->
+        <div class="font-f clearfix">
+            <span class="reg1 left selected">短信登录 / 注册</span>
+            <span class="reg2 left">密码登录</span>
+        </div>
+
+        <div class="mid-reg">
+            <div class="font">
+                <span class="f1">请仔细阅读</span>
+                <span class="f2"><a href="">豆瓣使用协议、豆瓣个人信息保护政策</a></span>
+            </div>
+            <form action="">
+                <div class="first">
+                    <input type="text" placeholder="手机号" maxlength="13" name="number">
+                    <div class="modal">
+                        <div class="choose">+86</div>
+                        <div class="modal-mo none">
+                            <div class="modal-center">
+                                <div class="head">
+                                    <h2>选择国际区号</h2>
+                                    <a class="choose-end">X</a>
+                                </div>
+                                <div class="uli">
+                                    <ul class="uli-ul">
+                                        <li class="selected clearfix"><span class="choose-area left">中国大陆</span><span class="choose-nmb right">+86</span></li>
+                                        <li class="clearfix"><span class="choose-area left">中国香港</span><span class="choose-nmb right">+852</span></li>
+                                        <li class="clearfix"><span class="choose-area left">中国澳门</span><span class="choose-nmb right">+853</span></li>
+                                        <li class="clearfix"><span class="choose-area left">中国台湾</span><span class="choose-nmb right">+886</span></li>
+                                        <li class="clearfix"><span class="choose-area left">日本</span><span class="choose-nmb right">+81</span></li>
+                                        <li class="clearfix"><span class="choose-area left">韩国</span><span class="choose-nmb right">+82</span></li>
+                                        <li class="clearfix"><span class="choose-area left">新加坡</span><span class="choose-nmb right">+65</span></li>
+                                        <li class="clearfix"><span class="choose-area left">泰国</span><span class="choose-nmb right">+66</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="second">
+                    <input type="text" placeholder="验证码" maxlength="6" name="identi-code">
+                    <button>获取验证码</button>
+                </div>
+                <button type="submit" class="btn"><a href="javascript:;">登录豆瓣</a></button>
+            </form>
+            <div class="last">
+                <span>收不到验证码</span>
+            </div>
+        </div>
+
+        <div class="mid-verify none">
+            <div class="font">
+                <span>找回密码</span>
+            </div>
+            <input type="text" placeholder="手机号 / 邮箱">
+            <input type="password" placeholder="密码">
+            <button class="btn"><a href="javascript:;">登录豆瓣</a></button>
+            <div class="last">
+                <span>海外手机登录</span>
+            </div>
+        </div>
+
+        <div class="reg-last">
+            <span class="left">第三方登录：</span>
+            <div class="aa left">
+                <a href=""><i class="iconfont icon-weixin"></i></a>
+                <a href=""><i class="iconfont icon-weibo"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
